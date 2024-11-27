@@ -11,7 +11,7 @@ so you could store that instance in a global variable:
 
 ### Vanilla flutter
 ```dart
-MyDatabase database;
+late MyDatabase database;
 
 void main() {
   database = MyDatabase();
